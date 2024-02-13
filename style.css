@@ -1,0 +1,122 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #45c781, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.first{
+ color:whitesmoke
+}
+.hacker{
+  height: 150px;
+display: block;
+margin: auto;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+#project img{
+  height: 300px;
+  width: 100%;
+  border-radius: 21px 21px 0 0
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+#about-me h2 {
+  color: #66bfbf;
+  font-size: 2.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+#about-me p {
+    color: #0dc5c5;
+    font-size: 1.10rem;
+    margin: 10px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+#about-me h1 {
+  color: #66bfbf;
+  font-size: 2.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: dotted #c9160d 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 0px auto;
+}
+
+#contact-me h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+.contact-button{
+  justify-content: center;
+  text-align: center;
+  border: 0;
+}
+
+#contact-me .btn{
+  background-color: #23c6c6;
+  border: 0;
+}
+
+#contact-me .btn-dark{
+  background-color: #fffafa;
+  border: 0;
+  margin: 2rem;
+  color: #333;
+}
