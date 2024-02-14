@@ -114,9 +114,11 @@ hr {
   border: 0;
 }
 
-#contact-me .btn-dark{
-  background-color: #fffafa;
+#footer{
+  background-color: #250055;
+}
+
+#footer .nav-item{
   border: 0;
   margin: 2rem;
-  color: #333;
 }
